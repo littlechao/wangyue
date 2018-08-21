@@ -1,0 +1,24 @@
+.el-select .el-input__inner {
+  background:rgba(255, 255, 255, 0) !important;
+  color: #fff;
+  border: none;
+}
+.el-select .el-input .el-select__caret {
+  color:#fff;
+}
+input::input-placeholder{color:  #bdbdbd ;} /* 有些资料显示需要写，有些显示不需要，但是在编辑器webstorm中该属性不被识别 */
+::-webkit-input-placeholder { /* WebKit browsers */ 
+padding-left: 10px;
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+padding-left: 10px;
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+padding-left: 10px;
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+padding-left: 10px;
+} 
+.el-select-dropdown__item.selected {
+  color: #ff8100;
+}
